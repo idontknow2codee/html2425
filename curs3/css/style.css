@@ -1,0 +1,13 @@
+h1{
+    width: 100%;
+    max-width: 500px;
+    border-bottom: double 3px blue;
+    margin:auto;
+    text-align: center;
+}
+
+h2{
+    border-bottom: solid 2px red;
+    padding: 15 px;
+    text-align: center;
+}
