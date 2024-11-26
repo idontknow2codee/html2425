@@ -60,12 +60,25 @@ nav ul li a{
 }
 /*Text Index*/
 
-.textindex-section h2{
+.textindex h2{
 font-size: 30px;
 color: rgb(121, 100, 75);
+text-align: center;
 }
-.textindex-section p{
-
+.textindex p{
+color: black;
+text-align: justify;
+}
+#paragraf{
+    margin-bottom: 40px;
+}
+.listetitlu h2{
+color: rgb(121, 100, 75);    
+text-align: left;
+}
+.liste{
+    display: flex;
+    gap: 45px;
 }
 
 /*START PRICE TABLE*/
