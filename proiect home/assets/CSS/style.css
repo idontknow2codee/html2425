@@ -58,6 +58,15 @@ nav ul li a{
     display: inline;
     margin: 15px;
 }
+/*Text Index*/
+
+.textindex-section h2{
+font-size: 30px;
+color: rgb(121, 100, 75);
+}
+.textindex-section p{
+
+}
 
 /*START PRICE TABLE*/
 .col,
