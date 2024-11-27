@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 5 aplicatia 2</title>
+    <style>
+        div{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+        @media screen AND (max-width:360px){
+            h1{
+                color: red;
+            }
+            .desk, .tab, .lap{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 361px) AND (max-width:768px){
+            h1{
+                color: blue;
+            }
+            .desk, .lap, .mob{
+                display: none;
+            }
+        }
+        @media screen AND (min-width: 769px) AND (max-width:1240px){
+            h1{
+                color: green;
+            }
+            .desk, .mob, .tab{
+                display: none;
+            }
+        }
+        @media screen AND (min-width:1241px){
+            h1{
+                color: aqua;
+            }
+            .mob, .tab, .lap{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="desk">
+        <h1>Suntem pe desktop</h1>
+        <img src="./img/06-kulonleges-cicafajtak.jpg" alt="">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop</h1>
+        <img src="./img/pisici-british-shorthair_large.jpg" alt="">
+    </div>
+    <div class="tab">
+        <h1>Suntem pe tableta</h1>
+        <img src="./img/Hipertiroidismul-la-pisici.jpg" alt="">
+    </div>
+    <div class="mob">
+        <h1>Suntem pe mobile</h1>
+        <img src="./img/pisica-Brittish-Shorthair-770x540.jpg" alt="">
+    </div>
+</body>
+</html>

@@ -63,3 +63,28 @@ nav ul li a{
     display: inline-block;
     margin: 15px;
 }
+
+/*START TABLE*/
+#table1{
+    /*border:  1px, red solid;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+#table1 tr td, #table1 tr th{
+    border: 1px blue double;
+    padding: 15px;
+}
+#table1 tr th{
+    color: rgb(255, 255, 255);
+    background-color: rgba(21, 84, 21, 0.772);
+}
+#table1 tbody tr:nth-child(2n){
+    background-color: rgb(183, 221, 167);
+}
+#table1 tbody tr:nth-child(2n+1){
+    background-color: rgba(110, 145, 101, 0.757);
+}#table1 tfoot tr{
+    background-color: rgba(21, 84, 21, 0.772);
+    color: #ffffff;
+}
+/*STOP TABLE*/
