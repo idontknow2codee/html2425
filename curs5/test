@@ -1,0 +1,12 @@
+5 / 4
+4 / 5
+Direct in html sau fisier separat / Inline, Embed/intern, Extern
+Sensitive / insensitive
+Font, Align, Display / Border, Margin, Content
+-
+In line se duce cand de mult ii permite ecranul, iar block cat ii spunem noi sa blocheze din ecran.
+2
+3 type
+1
+Id-ul are prioritate mai mare fata de clasa, se foloseste ID pe un singur element, id=# clasa=. 
+Text align este pt continut, float pt container

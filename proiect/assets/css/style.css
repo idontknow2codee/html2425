@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Sevillana';
+    src: url('../Fonts/Sevillana-Regular.eot');
+    src: local('Sevillana'), local('Sevillana-Regular'),
+        url('../Fonts/Sevillana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Sevillana-Regular.woff2') format('woff2'),
+        url('../Fonts/Sevillana-Regular.woff') format('woff'),
+        url('../Fonts/Sevillana-Regular.ttf') format('truetype'),
+        url('../Fonts/Sevillana-Regular.svg#Sevillana-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 .logo{
     width: 100%;
     max-width: 300px;
@@ -32,6 +47,9 @@ nav ul li a{
     font-size: 20px;
     color: #000;
     text-decoration: none;
+    font-family: "Sevillana", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* END HEADER */
