@@ -12,6 +12,8 @@
     <link rel="icon" type="image/svg+xml" href="../assets/image/favicon/favicon.svg" />
     <link rel="shortcut icon" href="../assets/image/favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/image/favicon/apple-touch-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <!--START HEADER-->
@@ -30,5 +32,53 @@
         </nav>
     </header>
     <!--STOP HEADER-->
+    
+    <div class="form-container">
+        <form class="registration-form">
+            <h2>Contactează-ne</h2>
+            <div class="form-group">
+                <label for="first-name">Prenume</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Introdu prenumele tău" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Nume</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Introdu numele tău" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresa de Email</label>
+                <input type="email" id="email" name="email" placeholder="Introdu adresa ta de email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul tău" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Trimite</button>
+            </div>
+        </form>
+    </div>
+    <div class="contact-info">
+        <div class="info-item">
+            <div class="icon">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <h3>Mail</h3>
+            <p><a href="mailto:contact@pms.com">contact@pms.com</a></p>
+        </div>
+        <div class="info-item">
+            <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <h3>Telefon</h3>
+            <p><a href="tel:+40712345678">+40 712 345 678</a></p>
+        </div>
+        <div class="info-item">
+            <div class="icon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h3>Locatie</h3>
+            <p>Strada Lalelelor 44, Bucuresti, Romania</p>
+        </div>
+    </div>
 </body>
 </html>

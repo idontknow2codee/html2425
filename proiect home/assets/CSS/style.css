@@ -41,8 +41,10 @@ nav ul li a{
     color: #ffff;
     text-align: center;
     position: absolute;
-    left: 35%;
-    top: 55%;
+    font-family: "Great Vibes";
+    font-size: 115px;
+    left: 25%;
+    top: 45%;
 }
 /*END BANNER*/
 .container{
@@ -53,10 +55,26 @@ nav ul li a{
     width: 100%;
     max-width: 1600;
     margin: auto;
+    text-align: justify;
+}
+#foto h2{
+    color: rgb(121, 100, 75);
+    text-align: center;
+}
+#porth{
+    color: rgb(121, 100, 75);
+    text-align: center;
 }
 #foto img.foto{
     display: inline;
     margin: 15px;
+}
+#titblog h1{
+    color: rgb(121, 100, 75);
+    text-align: center;    
+}
+#titblog h3{
+    text-align: center;
 }
 /*Text Index*/
 
@@ -74,11 +92,18 @@ text-align: justify;
 }
 .listetitlu h2{
 color: rgb(121, 100, 75);    
-text-align: left;
+text-align: center;
 }
 .liste{
     display: flex;
     gap: 45px;
+    justify-content: center;
+    width: 100%;
+}
+.liste h3{
+    margin-bottom: 15px;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 /*START PRICE TABLE*/
@@ -369,3 +394,106 @@ text-align: left;
     margin-bottom: 0;
 }
 /*STOP PRICE TABLE*/
+/*CONTACT*/
+.form-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+.registration-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    background: #f9f9f9;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: rgba(188, 165, 136, 0.8);
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(188, 165, 136, 0.5);
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background: rgba(188, 165, 136, 0.9);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.form-group button:hover {
+    background: rgba(188, 165, 136, 1);
+    transform: translateY(-2px);
+}
+
+/* Informatii contact */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.info-item {
+    text-align: center;
+    flex: 1;
+    margin: 0 15px;
+}
+.info-item .icon {
+    font-size: 40px; 
+    color: rgba(188, 165, 136, 0.9);
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.info-item .icon:hover {
+    color: rgba(188, 165, 136, 1); 
+    transform: scale(1.1);
+}
+.info-item h3 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.info-item p {
+    font-size: 14px;
+    color: #000; 
+}
+.info-item a {
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+}
+.info-item a:hover {
+    color: #2575fc;
+    text-decoration: underline;
+}
