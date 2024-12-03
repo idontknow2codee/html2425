@@ -1,6 +1,6 @@
 form{
     width: 500px;
-    display: inline-block;
+    display: block;
     outline-color: grey;
     position: relative;
     margin: 20px;
@@ -8,11 +8,17 @@ form{
     outline-offset: 5px ;
 }
 form fieldset{
-    display: inline-block;
+    display: block;
     margin: 20px;
 }
 form div {
-    display: inline-block;
+    display: block;
     border-radius: 5px;
     margin: 10px auto;
+}
+form label{
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
 }
