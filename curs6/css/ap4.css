@@ -1,0 +1,18 @@
+form{
+    width: 500px;
+    display: inline-block;
+    outline-color: grey;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    outline-offset: 5px ;
+}
+form fieldset{
+    display: inline-block;
+    margin: 20px;
+}
+form div {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px auto;
+}

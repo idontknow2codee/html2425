@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curs 6 aplicatia 4</title>
+    <link rel="stylesheet" href="./css/ap4.css">
 </head>
 <body>
-    
+    <h1>Formular comanda masina</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Card</legend>
+            <div>
+                <label for="card">Numar card</label>
+                <input type="text" name="card" id="card" maxlength="16" minlength="16" required>
+            </div>
+            <div>
+                <label for="data">Data expirare</label>
+                <input type="date" name="dataexpirare" id="data">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Livrare</legend>
+                <div>
+                    <label for="nume">Nume</label>
+                    <input type="text" name="nume" id="nume" value="" required minlength="4">
+                </div>
+                <div>
+                    <label for="prenume">Prenume</label>
+                    <input type="text" name="prenume" id="prenume" value="" required minlength="4">
+                </div>
+                <div>
+                    <label for="companie">Companie</label>
+                    <input type="text" name="companie" id="companie" value="" required minlength="4">
+                </div>
+                <div>
+                    <label for="adresa">Adresa</label>
+                    <input type="text" name="adresa" id="adresa" value="" required minlength="4">
+                </div>
+                <div>
+                    <label for="oras">Oras</label>
+                    <input type="text" name="oras" id="oras" value="" required minlength="4">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" value="">
+                </div>
+                <div>
+                    <label for="tel">Telefon</label>
+                    <input type="tel" name="tel" id="tel" value="" required minlength="10" placeholder="0700000000">
+                </div>
+        </fieldset>
+        <fieldset>
+
+            <legend>Adauga produsele</legend>
+            <div>
+                <label for="masina">Masina</label>
+                <select name="masina" id="masina">
+                    <option value="volvo">Mercedes</option>
+                    <option value="audi">Audi</option>
+                    <option value="ford">Ferrari</option>
+                    <option value="dacia">BMW</option>
+                </select>
+            </div>
+            <div>
+                <label for="mesaj">Mesaj</label>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <button type="submit">Trimite</button>
+    </form>
 </body>
 </html>
