@@ -497,3 +497,23 @@ text-align: center;
     color: #2575fc;
     text-decoration: underline;
 }
+/*Despre*/
+.about-section h1 {
+    font-size: 28px;
+    color: rgb(121, 100, 75);
+    margin-bottom: 15px;
+}
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.about-container p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
