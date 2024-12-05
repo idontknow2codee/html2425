@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    }
+    nav ul {
+        /* height: 30px; */
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(32, 33, 32);
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 20px 25px;
+        list-style: none;
+    }
+    nav ul li:hover{
+        background-color: rgba(159, 88, 141, 0.602);
+    }
+    nav ul li.active{
+        background-color: rgba(159, 88, 141, 0.602);
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Sevillana", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .submeniu{
+        display: none;
+        list-style: none;
+        background-color: rgba(168, 121, 156, 0.602);
+        /*text-transform: uppercase;*/
+        margin: 0;
+        padding: 0;
+    }
+    nav > ul > li:hover > ul.submeniu {
+    display: block;
+    background-color: rgb(32, 33, 32);
+    clear: both;
+    margin-top: 10px;
+    position: absolute;
+    width: 160px;
+    }
+    ul.submeniu > li > a {
+        padding: 15px 20px;
+        text-decoration: none;
+    }
+    ul.submeniu > li:hover {
+        background-color: rgba(159, 88, 141, 0.602);
+        color: #ffffff;
+    }
+    nav > ul > li:hover > ul.submeniu > li {
+        padding: 7px 5px 7px 5px;
+    }

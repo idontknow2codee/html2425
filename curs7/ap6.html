@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 7 aplicatia 6</title>
+    <style type="text/css">
+        body {
+            counter-reset: titlu;
+        }
+
+        h1 {
+            color: blue;
+            counter-reset: subtitlu;
+        }
+
+        h1::before {
+            counter-increment: titlu;
+            content: counter(titlu) ". ";
+        }
+
+        h3 {
+            color: red;
+        }
+
+        h3::before {
+            margin-left: 25px;
+            counter-increment: subtitlu;
+            content: counter(titlu) "." counter(subtitlu);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Titlu</h1>
+    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, eveniet.</h3>
+    <h3>Eius soluta est quisquam a placeat perspiciatis distinctio iste autem.</h3>
+    <h3>Alias cum nam vitae facere aspernatur similique rem quam eveniet.</h3>
+    <h3>Numquam debitis qui repellat natus facere perspiciatis quibusdam similique accusantium.</h3>
+    <h3>Odit soluta exercitationem est et eos inventore beatae, nulla nam?</h3>
+    <h3>Accusantium illum nemo ipsam asperiores corporis hic maiores sint quidem.</h3>
+    <h1>Titlu 2</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, beatae?</h3>
+    <h3>Laboriosam nobis nam ducimus assumenda accusantium voluptates recusandae molestias atque!</h3>
+    <h3>Ipsum quaerat quos minus nemo maxime laboriosam ex provident eius!</h3>
+    <h3>Illum reiciendis eius impedit odit ad eaque, placeat doloremque laudantium.</h3>
+    <h3>Iste dicta omnis facere reprehenderit est ullam consequatur, suscipit laborum!</h3>
+    <h3>Natus quisquam possimus enim ratione hic quam quidem vel illo.</h3>
+    <h1>Titlu 3</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, officiis.</h3>
+    <h3>Cumque dicta aperiam inventore et placeat ducimus quod asperiores unde.</h3>
+    <h3>Recusandae facilis optio et saepe sed a perferendis dolore veritatis.</h3>
+    <h3>Dolore amet in error accusantium ducimus nesciunt temporibus neque fuga?</h3>
+    <h3>Dicta fuga esse natus quia minima dolore tempora sequi error.</h3>
+    <h3>Sed dignissimos aliquid ipsa minus saepe labore illo ex atque.</h3>
+    <h1>Titlu 4</h1>
+    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, illo.</h3>
+    <h3>Ratione cum adipisci dignissimos expedita assumenda inventore ipsam ipsum delectus!</h3>
+    <h3>Saepe tempore quia quam, perferendis aut ut explicabo sit numquam?</h3>
+    <h3>Ut nostrum excepturi, maiores sequi aut explicabo adipisci. Temporibus, assumenda.</h3>
+    <h3>Sunt harum rerum voluptatum. Quae eum amet illo repellat accusantium.</h3>
+    <h3>Esse odio ea perspiciatis ipsum fugit quisquam, debitis facere molestias?</h3>
+    <h1>Titlu 5</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, illum?</h3>
+    <h3>Laudantium perferendis quis, laboriosam praesentium veniam et! Tempore, quos perferendis.</h3>
+    <h3>Ut explicabo culpa minus! Vero, in. Recusandae excepturi dolor facilis!</h3>
+    <h3>Quisquam quos maxime ipsum voluptas eos debitis qui accusantium optio.</h3>
+    <h3>Tempora, asperiores. Quis odio iste rerum nemo at alias iusto.</h3>
+    <h3>Error expedita necessitatibus voluptates placeat? Quasi obcaecati quidem illo adipisci?</h3>
+</body>
+
+</html>
